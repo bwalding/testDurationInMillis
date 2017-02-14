@@ -9,8 +9,7 @@ node() {
    }
    stage("stage3") {
        echo "Stage 3 running - eating ${env.SANDWICH} sandwich"
-       echo "sup dog"
-       sh "sleep 1"
+       echo "Munch munch"
        sh "sleep 15"
    }
 }
